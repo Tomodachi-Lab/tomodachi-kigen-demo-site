@@ -197,3 +197,7 @@ body {
 	font-weight: bold;
 	color: #FFFFFF ;
 }
+
+#socialize-links > td {
+	margin-top: 50px;
+}
