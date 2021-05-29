@@ -74,3 +74,14 @@ function incrementValue()
 		window.open("https://www.twitch.com/dariomocciatwitch")
 	}
 }
+
+
+
+
+
+function scarica()
+{
+	document.getElementById("socialize-linkss").style.display = "block";
+	document.getElementById("socialize-contact-mail").style.display = "none";
+	document.getElementById("piattaforma").style.display = "block";
+}

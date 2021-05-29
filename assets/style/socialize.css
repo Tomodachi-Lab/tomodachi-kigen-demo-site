@@ -195,3 +195,41 @@ body {
 #credits:hover, #credits:active {
 	background-color: #ca3d33;
 }
+
+#socialize-linkss {
+	font-size: 70px;
+	padding: 0px;
+	margin: 0px;
+	display: none;
+}
+
+#socialize-linkss li {
+	display: inline-block;
+	
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+#socialize-linkss li a {
+	color: rgba(255, 255, 255, 0.6);
+	list-style-type: none;
+	display: inline-block;
+	line-height: 50px;
+	height: 50px;
+	width: 50px;
+	padding: 0%;
+	cursor: pointer;
+	transition: ease 0.3s;
+}
+
+#socialize-linkss li a:hover {
+	color: #FFFFFF;
+}
+
+#socialize-linkss:hover>li {
+	opacity: 0.5;
+}
+
+#socialize-linkss:hover>li:hover {
+	opacity: 1;
+}
