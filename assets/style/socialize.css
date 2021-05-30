@@ -162,7 +162,7 @@ body {
 
 #socialize-contact {
 	margin-top: 20px;
-	margin-bottom: 25px;
+	margin-bottom: 50px;
 }
 
 #socialize-contact p {
@@ -183,17 +183,17 @@ body {
 }
 
 #credits {
-	background-color: red;
 	color: white;
 	padding: 14px 20px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
+	text-decoration: underline;
 	border-radius: 20px;
 }
 
 #credits:hover, #credits:active {
-	background-color: #ca3d33;
+	opacity: .5;
 }
 
 #socialize-linkss {
@@ -235,4 +235,7 @@ body {
 
 #socialize-contact-mail {
 	cursor: pointer;
+	background-color: #ca3d33;
+	padding: 20px;
+	border-radius: 20px;
 }
