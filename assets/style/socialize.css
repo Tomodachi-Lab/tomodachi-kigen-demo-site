@@ -205,7 +205,6 @@ body {
 
 #socialize-linkss li {
 	display: inline-block;
-	
 	margin-bottom: 15px;
 	margin-top: 15px;
 }
@@ -232,4 +231,8 @@ body {
 
 #socialize-linkss:hover>li:hover {
 	opacity: 1;
+}
+
+#socialize-contact-mail {
+	cursor: pointer;
 }
