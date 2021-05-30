@@ -182,6 +182,10 @@ body {
 	color: #cccccc;
 }
 
+#socialize-contact :hover{
+	opacity: .85;
+}
+
 #credits {
 	color: white;
 	padding: 14px 20px;
